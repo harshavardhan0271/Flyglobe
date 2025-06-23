@@ -1,12 +1,68 @@
-# React + Vite
+# ✈️ FlyGlobe – Travel Booking Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FlyGlobe is a modern travel booking interface built using **React.js** and **Vite** based on the official **Figma design assignment from Blumox Technologies**. It features a responsive design, clean component structure, and interactive flight filtering/search functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+| Home Page | Flight Results |
+|-----------|----------------|
+| ![Home Screenshot](./public/screenshots/home.png) | ![Results Screenshot](./public/screenshots/results.png) |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Demo
+
+🌐 [Click here to view the hosted site on Vercel](https://your-vercel-deploy-url.vercel.app)
+
+---
+
+## 📁 Project Structure
+
+flyglobe/
+├── public/
+│ └── assets/ # Images & logos
+├── src/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Footer.jsx
+│ │ ├── FlightForm.jsx
+│ │ ├── DestinationGrid.jsx
+│ │ ├── ModifySearchBar.jsx
+│ │ ├── PriceSelector.jsx
+│ │ ├── FlightCards.jsx
+│ │ └── FlightDetails.jsx
+│ ├── pages/
+│ │ └── Home.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── styles/
+│ └── *.css # Component styles
+├── index.html
+├── package.json
+└── vite.config.js
+
+---
+
+## ⚙️ Setup Instructions
+
+### Prerequisites
+- Node.js ≥ 16.x
+- npm ≥ 8.x
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/flyglobe.git
+cd flyglobe
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+
+# 4. Build for production
+npm run build
